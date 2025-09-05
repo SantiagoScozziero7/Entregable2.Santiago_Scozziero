@@ -1,0 +1,22 @@
+[
+    {
+        "titulo": "Enganche Volkswagen Amarok",
+        "precio": 1000,
+        "imagen": "img/enganche.jpg"
+    },
+    {
+        "titulo": "Enganche Reforzado Cobra Para Ram 1500",
+        "precio": 2000,
+        "imagen": "img/Enganche-ram2.jpg"
+    },
+    {
+        "titulo": "Punta Acople Para Enganches De Trailer Cobra Bocha O Perno 40X40",
+        "precio": 500,
+        "imagen": "img/portada-acoples.jpg"
+    },
+    {
+        "titulo": "Punta Acople Para Enganches De Trailer Cobra Bocha O Perno 50x50",
+        "precio": 600,
+        "imagen": "img/portada-acoples 50x50.jpg"
+    }
+]

@@ -1,67 +1,63 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Cobra Equipamientos - Accesorios para camionetas y vehículos 4x4. Más de 20 años de experiencia en el rubro.">
+    <meta name="keywords" content="equipamientos, camionetas, 4x4, accesorios, enganches, barras, estribos">
+    <meta name="author" content="Cobra Equipamientos">
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="icon" href="img/favicon.ico" type="image/x-icon">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <title>Cobra Equipamientos</title>
 </head>
-
 <body>
     <div class="wrapper">
         <aside>
             <header>
-                <h1 class="logo">Cobra Equipamiento 4x4</h1>
+                <h1 class="logo">
+                    <a href="index.html">
+                        <img src="img/ChatGPT Image 11 ago 2025, 07_12_50 p.m..png" alt="Logo Cobra Equipamiento 4x4">
+                    </a>
+                </h1>
             </header>
             <nav>
                 <ul class="menu">
+                    <li class="boton-menu"><a href="nosotros.html">Nosotros</a></li>
                     <li><a href="./carrito.html" class="boton-menu boton-carrito"><i class="fa-solid fa-cart-shopping"></i>Carrito</a></li>
                 </ul>        
             </nav>
         </aside>    
         <main>
+            <section class="hero">
+                <h1>Equipamos tu camioneta con estilo y calidad</h1>
+                <p>Más de 20 años de experiencia en accesorios para vehículos 4x4</p>
+                <a href="nosotros.html" class="boton-hero">Conoce más</a>
+            </section>
+            <div class="buscador">
+                <input type="text" id="buscar" placeholder="Buscar productos...">
+            </div>
             <h2 class="titulo-principal">Todos los Productos</h2>
-            <div class="contenedor-productos">
-                <div class="producto">
-                    <img class="producto-imagen" src="img/enganche.jpg" alt="">
-                    <div class="producto-detalles">
-                        <h3 class="producto-titulo">Enganche Volkswagen Amarok</h3>
-                        <p class="producto-precio">$1000</p>
-                        <button class="producto-agregar">Agregar</button>
-                    </div>
-                </div> 
-                
-                <div class="producto">
-                    <img class="producto-imagen" src="img/Enganche-ram2.jpg" alt="">
-                    <div class="producto-detalles">
-                        <h3 class="producto-titulo">Enganche Reforzado Cobra Para Ram 1500</h3>
-                        <p class="producto-precio">$2000</p>
-                        <button class="producto-agregar">Agregar</button>
-                    </div>
-                </div> 
-                
-                <div class="producto">
-                    <img class="producto-imagen" src="img/portada-acoples.jpg" alt="">
-                    <div class="producto-detalles">
-                        <h3 class="producto-titulo">Punta Acople Para Enganches De Trailer Cobra Bocha O Perno 40X40</h3>
-                        <p class="producto-precio">$500</p>
-                        <button class="producto-agregar">Agregar</button>
-                    </div>
-                </div> <
-                
-                <div class="producto">
-                    <img class="producto-imagen" src="img/portada-acoples 50x50.jpg" alt="">
-                    <div class="producto-detalles">
-                        <h3 class="producto-titulo">Punta Acople Para Enganches De Trailer Cobra Bocha O Perno 50x50</h3>
-                        <p class="producto-precio">$600</p>
-                        <button class="producto-agregar">Agregar</button>
-                    </div>
-                </div> 
-            </div> 
+            <div class="contenedor-productos"></div>
         </main>
     </div>
+    <footer class="footer">
+        <div class="footer-contenido">
+            <p>&copy; 2025 Cobra Equipamientos SRL. Todos los derechos reservados.</p>
+            <ul class="footer-enlaces">
+                <li><a href="nosotros.html">Nosotros</a></li>
+                <li><a href="carrito.html">Carrito</a></li>
+                <li><a href="mailto:cobra@gmail.com">Contacto</a></li>
+            </ul>
+            <div class="footer-redes">
+                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+            </div>
+        </div>
+    </footer>
     <script src="main.js"></script>
 </body>
 </html>
